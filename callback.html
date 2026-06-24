@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head><title>Auth Callback</title></head>
+<body>
+<h2>TikTok Auth Callback</h2>
+<p>Copy ค่าทั้งหมดในแถบ URL ด้านบนของเบราว์เซอร์ (ส่วนที่อยู่หลัง ?code=...)</p>
+<pre id="params"></pre>
+<script>
+document.getElementById('params').textContent = window.location.search;
+</script>
+</body>
+</html>
